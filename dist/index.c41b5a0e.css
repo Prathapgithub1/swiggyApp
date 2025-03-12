@@ -1,0 +1,97 @@
+.logo {
+  width: 100px;
+  height: 100px;
+  padding-left: 10px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.Logo-container img {
+  width: 200px;
+  height: 60px;
+  padding: 15px;
+}
+
+.nav-container {
+  border: 1px solid #000;
+  justify-content: space-between;
+  height: 90px;
+  margin-top: 2px;
+  margin-left: 5px;
+  display: flex;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+}
+
+li {
+  cursor: pointer;
+  padding-left: 10px;
+  padding-right: 25px;
+  font-size: 20px;
+}
+
+.HeadingContainer {
+  margin-top: 40px;
+  margin-right: 25px;
+}
+
+.SearchContainer input {
+  width: 500px;
+  height: 40px;
+  box-shadow: none;
+  border: 1px solid #020f10;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-left: 25%;
+  padding: 0 10px;
+  font-size: 15px;
+}
+
+.SearchContainer button {
+  cursor: pointer;
+  border: 1px solid #011314;
+  border-radius: 10px;
+  width: 80px;
+  height: 40px;
+  margin-left: 10px;
+}
+
+.SearchContainer button:hover {
+  color: #000;
+  background-color: green;
+}
+
+.RestaurantContainer {
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 30px;
+  margin-left: 40px;
+  padding: 10px;
+  display: flex;
+}
+
+.restaurantCard {
+  background-color: #f0f0f0;
+  border-radius: 12px;
+  width: 242px;
+  height: 300px;
+  padding: 5px;
+}
+
+.restaurantCard:hover {
+  cursor: pointer;
+  border: 1px solid #000;
+}
+
+.imageCard img {
+  border-radius: 20px;
+  width: 240px;
+  height: 180px;
+}
+/*# sourceMappingURL=index.c41b5a0e.css.map */
