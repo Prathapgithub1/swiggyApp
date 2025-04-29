@@ -99,3 +99,10 @@ li {
 
     border-radius: 20px;
 }
+
+.top-rated-restaurants{
+    margin-left:10px;
+    cursor: pointer;
+    height: 25px;
+    width: auto;
+}

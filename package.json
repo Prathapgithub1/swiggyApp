@@ -1,7 +1,6 @@
 {
   "name": "swiggy-app",
   "version": "1.0.0",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "parcel index.html"
@@ -11,12 +10,12 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
     "swiggy-app": "file:"
   },
   "devDependencies": {
-    "parcel": "^2.13.3",
+    "parcel": "^2.14.4",
     "process": "^0.11.10"
   }
 }
